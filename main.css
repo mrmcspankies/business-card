@@ -1,0 +1,13 @@
+.image{
+    top:10px;
+    position:absolute;
+}
+
+.text-wrapper{
+    top:0px;
+    position:absolute;
+}
+body {
+    background-image: url("assets/assetsforwebtyography2-optimize.gif")
+    
+}
