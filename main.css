@@ -1,13 +1,44 @@
+@font-face {
+    font-family: bad-coma;
+    src: url("assets/bad-coma.ttf");
+}
 .image{
     top:10px;
-    position:absolute;
+    position:relative; left: 100px; bottom:85px;
+    z-index: 10;
 }
 
 .text-wrapper{
-    top:0px;
+    top:100px;
     position:absolute;
+    z-index: 50;
 }
+
 body {
-    background-image: url("assets/assetsforwebtyography2-optimize.gif")
+    background-image: url(assets/assetsforwebtyography2-optimize.gif);
+  
+}
+
+
+h1 {
+   font-family: "bad-coma";
+    position: relative; left: 175px; 
+}
+
+h2{ 
+    font-family: "bad-coma";
+    position:relative; left: 185px; 
+     
+}
+
+ul { 
+    position: relative; left: 190px; 
+    font-family: "ITC Eras Bold";
+}
+
+p {
+    position: relative; ;left: 190px; 
+    font-size: 12px;
+    font-family: "ITC Eras Bold"
     
 }
