@@ -42,28 +42,6 @@ p {
     font-family: "ITC Eras Bold"
     
 }
-@media screen and (min-width: 1200px) {
-    body{
-     margin: 0 auto;
-    }
-   .card{
-     display: grid;
-     width: 40%;
-     margin-left:40px;
-     margin-top:80px;
-   }
-     }
-
-     @media screen and (max-width: 1200px) {
-        body{
-         margin: 0 auto;
-        }
-       .card{
-         display: grid;
-         width: 60%;
-         /* centers the card */
-         margin-left:auto;
-         margin-right:auto;
-         margin-top:30px;
-       }
-         }
+a:hover { color: red;
+text-decoration: color;
+}
